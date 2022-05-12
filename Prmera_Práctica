@@ -1,7 +1,7 @@
 /* Comentario de varias líneas
 */
 //Comentario para una sola línea//
-// Tipos de datos más utilizados: int;string,char,double//
+// Los tipos de datos más utilizados: int;string,char,double//
 
 package priemer_proyecto;
 
@@ -11,13 +11,15 @@ public class Priemer_Proyecto {
     
     public static void main(String[] args) {
         
+// Creación de la variable tres, que almacena un String/        
         String tres = "20";
-//Cambio a entero la variable tres que es un String // 
+//Almacenar en cuatro la variable tres pero de tipo integer, en vez de String // 
         int cuatro = Integer.parseInt(tres); 
- //Cración de un entero//
+ //Cración de una variable llamada uno que almacena un entero//
         int uno = 35; 
-//Cambio de entero a String//
-        double dos = 89;//Creación de una variable decimal//
+ //Creación de una variable llamada dos que almacena un decimal//       
+        double dos = 89;
+ //Creación de una variable llamada suma que almacena un decimal//
         double suma = uno + dos;
         int x = cuatro + uno;
  //Impresión en pantalla//
