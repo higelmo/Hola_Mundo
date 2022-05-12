@@ -1,0 +1,35 @@
+/* Comentario de varias líneas
+*/
+//Comentario para una sola línea//
+// Tipos de datos más utilizados: int;string,char,double//
+
+package priemer_proyecto;
+
+
+public class Priemer_Proyecto {
+
+    
+    public static void main(String[] args) {
+        
+        String tres = "20";
+//Cambio a entero la variable tres que es un String // 
+        int cuatro = Integer.parseInt(tres); 
+ //Cración de un entero//
+        int uno = 35; 
+//Cambio de entero a String//
+        double dos = 89;//Creación de una variable decimal//
+        double suma = uno + dos;
+        int x = cuatro + uno;
+ //Impresión en pantalla//
+        System.out.println(cuatro);
+        System.out.println("La suma de las variables cuatro y uno es");
+        System.out.println(x);
+      
+    }
+    
+}
+
+
+
+
+
