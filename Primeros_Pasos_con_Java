@@ -1,0 +1,67 @@
+package operadores_matemáticos;
+
+
+public class Operadores_Matemáticos {
+
+    
+    public static void main(String[] args) {
+      int num1 = 5;
+      int num2 = 7;
+      System.out.println(num1 + num2);
+      System.out.println(num1 - num2);  
+      System.out.println(num1 * num2); 
+      System.out.println(num1 / num2);
+      System.out.println(num1 % num2);
+      // Potenciación//
+      double num3 = Math.pow(num1, num2);// Me eleva num2 a num1//
+      System.out.println(num3);
+      /* Grado de preferecia a la hora de realizar operaciones matemáticas sería:
+      1º el ()
+      2º la potenciación
+      3º la *
+      4º la /
+      5º la +
+      6º la -
+      */
+      //Operadores de asignación; =, +=, -=, %=.//
+      //Operadores de comparación: ==, !=, <, >,<=,>=. //
+      //Sentencia if//
+    if (num1 == num2){
+        System.out.println("Los numeros 1 y dos son iguales a " + num2);
+    }
+     else{
+    System.out.println("Los numeros 1 y 2 son distintos");
+     }   
+    
+    // Comparaciones consecutivas//
+    System.out.println(num1 == num2 && num1 == num3);// AND
+    System.out.println(num1 == num2 || num1 == num3);//OR
+    System.out.println(num1 == num2 ^ num1 == num3);//XOR 
+    System.out.println(!(num1 == num2));// ! es una negación de lo que tengo
+    
+    //Operadores incrementales
+    num1 ++; //Me incrementa el valor de num1 en una unidad
+    System.out.println(num1);
+    
+    //Concatenación//
+    String nombre = "Oscar ";
+    System.out.println(nombre + num1);//Concatena nombre con num1 que es un entero//
+    
+    // switch; En caso de que num2 valga 1, me escribe lo correspondiente al caso //
+    switch (num2){
+        case 1: System.out.println("Es uno");break;
+        case 2: System.out.println("Es dos");break;
+        case 3: System.out.println("Es tres");break;
+        case 4: System.out.println("Es cuatro");break;
+        case 5: System.out.println("Es cinco");break;
+        case 6: System.out.println("Es seis");break;
+        case 7: System.out.println("Es siete");break;
+        // default lo utilizo en caso de que no se cumpla ninguna
+        default: System.out.println("No es ninguno");break;
+    }
+            
+   
+    
+    
+    }
+    
