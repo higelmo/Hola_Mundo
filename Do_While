@@ -1,0 +1,16 @@
+public class Do_While {
+
+   
+    public static void main(String[] args) {
+       int i = 0;
+       
+       while (i < 10){
+           System.out.println("While"); // While se ejecuta mientras se cumpla la condición.//
+           i ++;
+       }
+            
+       do {
+       System.out.println("Do While");//Se ejecuta primero el do, y luego se compruba la condición.
+       i--;
+       } while (i == 9);
+    }
