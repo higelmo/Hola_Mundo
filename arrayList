@@ -1,0 +1,32 @@
+package araaylist;
+
+import java.util.ArrayList;
+
+public class Araaylist {
+
+   
+    public static void main(String[] args) {
+      
+        ArrayList<String> x = new ArrayList<String>();
+            
+            x.add("1");
+            x.add("2");
+            x.add("3");
+            x.add("2");
+            x.add("5");
+            x.add("6");
+            
+    System.out.println(x.get(2));  // Comprobar cual es la posición 2 //
+    System.out.println(x.size());  // Comprobar el tamaño del array//
+    System.out.println(x.contains("2")); // Comprobar si contiene el String 2 //
+    System.out.println(x.indexOf("2"));// Me dá la posición del Índice 2, empezando desde el principio//
+    System.out.println(x.lastIndexOf("2")); //Me da la posición del índice 2, empezando desde el final //
+    System.out.println(x.remove(2)); //Borro la posición 2 y todos los valores se recolocan//
+    System.out.println(x.get(2)); 
+        
+        
+        
+        
+    }
+    
+}
