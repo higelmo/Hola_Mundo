@@ -1,0 +1,44 @@
+package arrays;
+
+
+public class Arrays {
+
+  
+    public static void main(String[] args) {
+        
+    // Array creado de String en el que se indican los días de la semana//
+       String [] semana = {"Lunes","Martes","Miercoles","Jueves","Viernes"};
+       
+    // Me da la salida de la posición 4 que es jueves //
+       System.out.println(semana[3]);
+       
+    // Array creado de enteros int //
+    
+       int [] numeros_aleatorios = {2,4,1,2,0,6,5,3,3,4,7};
+    
+    //Me imprime el número 6, que corresponde con la sexta posición//
+             System.out.println(numeros_aleatorios [5]);
+             
+    //Array doble, predefinir la matriz en la que se crea//
+    
+        int num[][] = new int [2][3];
+            
+            num[0][0] = 3;    num[0][1] = 2;  num[0][2] = 8;
+            num[1][0] = 5;    num[1][1] = 1;  num[1][2] = 4;
+             
+    System.out.println(num[0][2]);
+    
+        // Array doble sin predefinir la matriz en la que se crea//
+    
+        int x[][] = {
+                {3,4,6,9},
+                {2,1,3,5},
+                {4,5,2,1},
+                {1,0,1,6},
+             };
+    System.out.println(x[2][3]);
+    
+       
+    }
+    
+}
